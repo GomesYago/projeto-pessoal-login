@@ -1,0 +1,23 @@
+@charset "UTF-8";
+/*estilos gerais*/
+
+:root{
+    --cor0: #084499;
+    --cor1: #e69f17;
+    --cor2: #3388ff;
+    --cor3: #996500;
+    --cor4: #166de6;
+}
+
+*{
+    
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: var(--cor2);
+
+}
+.imagem{
+    background-image: url(../imagens/imagem01.jpg);
+}
