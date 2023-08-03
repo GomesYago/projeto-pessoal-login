@@ -1,23 +1,69 @@
 @charset "UTF-8";
 /*estilos gerais*/
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;&display=swap');
+
+
 :root{
     --cor0: #084499;
     --cor1: #e69f17;
     --cor2: #3388ff;
     --cor3: #996500;
     --cor4: #166de6;
+    --font01--: Montserrat, sans-serif;
 }
 
 *{
     
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box;
 }
-body{
+body, html{
     background-color: var(--cor2);
-
+    height: 100vh;
+    width: 100vw;
+    font-family:
 }
+::-webkit-scrollbar{
+    width: 0px;
+}
+main{
+    background-color: white;
+
+    margin: auto;
+    margin-block: 10px;
+
+    padding: 10px;
+
+    height: 530px;
+    width: 300px;
+    display: block;
+
+    border-radius: 10px;
+    box-shadow: inset 0px 2px 8px rgba(0, 0, 0, 0.473);
+}
+
 .imagem{
-    background-image: url(../imagens/imagem01.jpg);
+    background-image: url(../imagens/imagem06.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    height: 250px;
+    width: 100%;
+    border-radius: 10px;
+}
+.formulario{
+    margin-top: 10px;
+    
+}
+.formulario > h1{
+    text-align: center;
+    font-size: 1.8em;
+    font-family: var(--font01--);
+}
+.formulario > p{
+    text-align: justify;
+    font-size: 0.8em;
+    margin-top: 10px;
 }

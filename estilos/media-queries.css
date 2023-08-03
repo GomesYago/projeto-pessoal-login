@@ -1,3 +1,42 @@
 @charset "UTF-8";
 
 /*Estilos outras midias*/
+
+    
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+
+    body{
+        background-image: linear-gradient(to top, #e69f17, #3388ff);
+    } 
+    main{
+        width: 80vw;
+        height: 290px;
+        
+    }
+    .imagem{
+        float: left;
+        width: 40%;
+        height: 270px;
+        border-radius: 10px;
+    }
+    .formulario{
+        float: right;
+        width: 60%;
+        padding: 10px;
+    }
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    body{
+        background-image: linear-gradient(to top, #e69f17, #3388ff);
+    }
+    main{
+        
+    }
+}
+
+@media screen and (min-width: 1200px){
+    body{
+        background-image: linear-gradient(to top, #e69f17, #3388ff);
+    }
+}
