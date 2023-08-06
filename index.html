@@ -19,6 +19,20 @@
 
                 <p>Seja bem-vindo(a). Faça login para acessar sua conta e poder fazer as configurações no seu dispositivo.</p>
 
+                <form action="login" method="get">
+                    <p id="nome"><label for="inome">Nome:</label>
+                        <input type="text" name="nome" id="inome" required minlength="12" maxlength="35" placeholder="Insira seu nome" autocomplete="on"></p>
+                    <p id="senha">
+                        <label for="isenha">Senha:</label>
+                        <input type="password" name="senha" id="isenha" required maxlength="20" placeholder="Insira sua senha">
+                    </p>
+                    <p id="enviar">
+                      <input type="submit" value="Enviar">
+                      <a href="#">Esqueci minha senha</a>  
+                    </p>
+
+                </form>
+
             </article>
         
     </main>

@@ -42,6 +42,9 @@ main{
 
     border-radius: 10px;
     box-shadow: inset 0px 2px 8px rgba(0, 0, 0, 0.473);
+
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
 }
 
 .imagem{
@@ -55,6 +58,7 @@ main{
 }
 .formulario{
     margin-top: 10px;
+
     
 }
 .formulario > h1{
@@ -66,4 +70,38 @@ main{
     text-align: justify;
     font-size: 0.8em;
     margin-top: 10px;
+}
+#nome{
+    margin: 10px;
+}
+#nome > input{
+    background-color: #e69e178c;
+    border: none;
+    padding: 5px;
+    
+}
+#senha{
+    margin: 10px
+}
+#senha > input{
+    background-color: #e69e178c;
+    border: none;
+    padding: 5px;
+}
+#enviar{
+    margin: 10px;
+    margin-top: 15px;
+    font-size: 1em;
+}
+#enviar > a{
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 0.8em;
+
+}
+#enviar > a:hover{
+    background-color: #e69f17;
+    color: white;
+    padding: 2px;
+    transition: 0.2s;
 }

@@ -25,18 +25,61 @@
         width: 60%;
         padding: 10px;
     }
+}
 
 @media screen and (min-width: 992px) and (max-width: 1200px){
     body{
         background-image: linear-gradient(to top, #e69f17, #3388ff);
     }
     main{
+        width: 80vw;
+        height: 290px;
         
+    }
+    .imagem{
+        float: right;
+        width: 40%;
+        height: 270px;
+        border-radius: 10px;
+    }
+    .formulario{
+        float: left;
+        width: 60%;
+        padding: 15px;
+
+        line-height: 1.3em;
+        font-size: 1.2em;
     }
 }
 
 @media screen and (min-width: 1200px){
     body{
         background-image: linear-gradient(to top, #e69f17, #3388ff);
+    }
+    main{
+        width: 80vw;
+        height: 350px;
+
+        
+    }
+    .imagem{
+        float: right;
+        width: 40%;
+        height: 320px;
+        border-radius: 10px;
+    }
+    .formulario{
+        float: left;
+        width: 60%;
+        padding: 20px;
+
+        line-height: 1.5em;
+        font-size: 1.4em;
+    }
+    #nome > input{
+        padding: 7px;
+    }
+    #senha > input{
+        padding: 7px;
     }
 }
